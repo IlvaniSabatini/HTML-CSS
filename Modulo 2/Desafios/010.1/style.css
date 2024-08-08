@@ -1,0 +1,109 @@
+@charset "UTL-8";
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+
+body {
+    background-color: rgb(247, 200, 235);
+    font-size: 16px;  
+}
+.titulo2 {
+    background-image: linear-gradient(to right, rgb(172, 84, 135), rgb(255, 125, 201), white);
+    color: white;
+    font-family: "Send Flowers", cursive;
+    padding-left: 10px;
+}
+header {
+    background-image: linear-gradient(to top, rgb(177, 95, 133), rgb(231, 119, 171));
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px;
+    margin: auto;  
+}
+header > h1 {
+    font-family: "Send Flowers", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    padding: 0px;
+}
+header > nav {
+    text-align: left;
+}
+header > nav > a {
+    text-decoration: none;
+    margin-right: 10px;
+}
+.link {
+    color: rgb(88, 27, 145);
+}
+header > nav > a:hover {
+    background-color: rgb(255, 57, 196);
+    text-decoration: underline;
+}
+.destaque {
+    color: rgb(88, 27, 145);
+}
+main {
+    background-color: white;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.363);
+    width: auto;
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-indent: 20px;
+}
+.simbolo::after {
+    content: '🔗';
+}
+.simbolo {
+    text-decoration: none;
+}
+main > h1 {
+    font-family: "Send Flowers", cursive;
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(88, 27, 145);
+}
+img {
+    display: block;
+    height: 80%;
+    width: 95%;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.flor {
+    display: block;
+    height: 30%;
+    width: 40%;
+}
+video {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+}
+main > div {
+    display: block;
+    width: auto;
+    padding: 10px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+    background-color: rgb(212, 193, 230);
+}
+.tipos {
+    text-decoration: none;
+}
+.tipos:hover {
+    background-color: rgb(240, 176, 221);
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(141, 52, 94);
+    color: rgb(209, 137, 185);
+    text-align: center;
+}
+footer > p > a {
+    text-decoration: none;
+    color: white;
+}

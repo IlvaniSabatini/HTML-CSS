@@ -1,0 +1,102 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: blanchedalmond;
+            text-align: justify;
+            margin: 0px;
+        }
+        header {
+            background-color: rgb(154, 192, 192);
+            text-align: center;
+            padding: 30px;
+            margin: auto;
+        }
+        header > h1 {
+            background-color: rgb(170, 138, 138);
+            box-shadow: inset 2px 1px 14px rgba(0, 0, 0, 0.452);
+            width: 200px;
+            padding: 20px;
+            margin: auto;
+            border-radius: 10px;
+        }
+        header > nav {
+            background-color: aliceblue;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+            width: 200px;
+            margin: auto;
+            padding: 5px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: brown;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        nav > a:active {
+            color: rgb(139, 41, 158);
+        }
+    
+        main {
+            background-color: white;
+            margin: 10px;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        article {
+            background-color: rgb(245, 245, 220);
+            padding: 10px;
+            border-radius: 10px;
+        }
+        article > aside {
+            background-color: rgb(150, 134, 115);
+        }
+        footer {
+            background-color: rgb(170, 138, 138);
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: auto;
+            border-radius: 10px 0px 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, reprehenderit rerum! Rerum dolor ratione dolorum cumque earum! Consequatur quisquam unde obcaecati voluptates dolores ab delectus fuga tenetur. Quae, omnis adipisci.</p>
+                <aside>
+                    <p>Artigo feito pelo autor</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desemvolvido por Ilvani Sabatini</p>
+    </footer>
+
+</body>
+</html>
