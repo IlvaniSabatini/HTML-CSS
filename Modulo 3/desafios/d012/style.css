@@ -1,1 +1,16 @@
 @charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.japan {
+    color: brown;
+}
+.japan2 {
+    color: blueviolet;
+}
+.br {
+    color: green;
+}
