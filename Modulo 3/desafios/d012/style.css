@@ -14,34 +14,70 @@
     --japanfont: "Cactus Classical Serif", serif;
     --headerfont: 'Blood Crow', sans-serif;
 }
+html, body {
+    min-width: 100vh;
+    background-color: darkgrey;
+}
 .japan {
     font-family: var(--japanfont);
+    font-size: 14px;
     color: brown;
 }
 .japan2 {
     font-family: var(--bodyfont);
+    font-size: 14px;
     color: blueviolet;
 }
 .br {
     font-family: var(--bodyfont);
+    font-size: 20px;
     color: green;
+    padding: 5px 0px 15px 0px;
+}
+section {
+    padding-left: 30px
 }
 .estrof {
     background-color: azure;
     color: black;
+    padding-top: 10vh;
+    padding-bottom: 3vh;
 }
 .preref {
-    background-color: #ddafc4;
+    background-color: azure;
     color: black;
+    padding-bottom: 10vh;
 }
 .ref {
     background-image: url(imagens/background0.jpg);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+.ref > div {
+    background-color: rgba(0, 0, 0, 0.400);
+    width: 400px;
+}
+header {
+    background-color: var(--cor1);
+    text-align: center;
 }
 header h1 {
-    background-color: var(--cor1);
     font-family: var(--headerfont);
     color: white;
+    padding-top: 50px;
+}
+header p {
+    padding-bottom: 50px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
 }
 footer {
     background-color: var(--cor1);
+    text-align: center;
 }
