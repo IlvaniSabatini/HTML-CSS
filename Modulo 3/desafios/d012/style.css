@@ -20,22 +20,22 @@ html, body {
 }
 .japan {
     font-family: var(--japanfont);
-    font-size: 14px;
+    font-size: 3vw;
     color: brown;
 }
 .japan2 {
     font-family: var(--bodyfont);
-    font-size: 14px;
+    font-size: 3vw;
     color: blueviolet;
 }
 .br {
     font-family: var(--bodyfont);
-    font-size: 20px;
+    font-size: 3vw;
     color: green;
     padding: 5px 0px 15px 0px;
 }
 section {
-    padding-left: 30px
+    padding-left: 30px;
 }
 .estrof {
     background-color: azure;
@@ -49,7 +49,6 @@ section {
     padding-bottom: 10vh;
 }
 .ref {
-    background-image: url(imagens/background0.jpg);
     padding-top: 10vh;
     padding-bottom: 10vh;
 }
@@ -64,7 +63,11 @@ section {
 }
 .ref > div {
     background-color: rgba(0, 0, 0, 0.400);
+    padding: 10px;
     width: 400px;
+}
+.ref > div > p.br {
+    color: white;
 }
 header {
     background-color: var(--cor1);
@@ -74,6 +77,7 @@ header h1 {
     font-family: var(--headerfont);
     color: white;
     padding-top: 50px;
+    font-size: 8vw;
 }
 header p {
     padding-bottom: 50px;
