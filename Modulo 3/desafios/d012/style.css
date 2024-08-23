@@ -15,23 +15,22 @@
     --headerfont: 'Blood Crow', sans-serif;
 }
 html, body {
-    min-width: 100vh;
     background-color: darkgrey;
 }
 .japan {
     font-family: var(--japanfont);
-    font-size: 3vw;
-    color: brown;
+    font-size: 2vw;
+    color: #ff67ab;
 }
 .japan2 {
     font-family: var(--bodyfont);
-    font-size: 3vw;
-    color: blueviolet;
+    font-size: 2vw;
+    color: #fc4f9c;
 }
 .br {
     font-family: var(--bodyfont);
     font-size: 3vw;
-    color: green;
+    color: black;
     padding: 5px 0px 15px 0px;
 }
 section {
@@ -49,33 +48,44 @@ section {
     padding-bottom: 10vh;
 }
 .ref {
+    box-shadow: inset 6px 6px 13px 0px rgb(97, 43, 43);
     padding-top: 10vh;
     padding-bottom: 10vh;
+    background-attachment: fixed;
 }
 #img01 {
     background-image: url(imagens/background0.jpg);
+    background-size: cover;
 }
 #img02 {
     background-image: url(imagens/background001.jpg);
+    background-size: cover;
 }
 #img03 {
     background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 .ref > div {
-    background-color: rgba(0, 0, 0, 0.400);
+    background-color: rgba(0, 0, 0, 0.521);
+    text-shadow: 1px 1px 0px black;
     padding: 10px;
-    width: 400px;
+    min-width: 40%;
+    max-width: 60%;
 }
 .ref > div > p.br {
     color: white;
+    text-shadow: 1px 1px 0px black;
 }
 header {
-    background-color: var(--cor1);
+    background-image: url(imagens/sol.png);
+    background-position: center top;
+    color: white;
     text-align: center;
 }
 header h1 {
     font-family: var(--headerfont);
     color: white;
+    text-shadow: 2px 2px 5px var(--cor2);
     padding-top: 50px;
     font-size: 8vw;
 }
@@ -83,7 +93,7 @@ header p {
     padding-bottom: 50px;
 }
 header a, footer a {
-    color: white;
+    color: var(--cor2);
     text-decoration: none;
     font-weight: bolder;
 }
@@ -92,5 +102,8 @@ header a:hover, footer a:hover {
 }
 footer {
     background-color: var(--cor1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
     text-align: center;
 }
