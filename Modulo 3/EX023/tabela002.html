@@ -8,6 +8,7 @@
         table {
             background-color: beige;
             border: 1px solid black;
+            position: relative;
         }
         caption {
             font-size: 1.5em;
@@ -20,10 +21,21 @@
             color: white;
             text-align: center;
         }
+        thead > tr > th {
+          position: sticky;
+          top: 0;
+          background-color: rgb(129, 122, 112);
+        }
         td {
             border: 1px solid black;
-            width: 150px;
+            width: 200px;
             padding: 5px;
+        }
+        tbody {
+          font-size: 20px;
+        }
+        tbody > tr:nth-child(odd) {
+          background-color: aquamarine;
         }
         tfoot {
             background-color: rgb(129, 122, 112);
