@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        form > div {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mátricula do Aluno</h1>
+    <form action="cadastro.php" method="post">
+        <div>
+            <label for="ifoto">Foto do perfil: </label>
+            <input type="file" name="foto" id="ifoto" required accept="image/*">
+        </div>
+        <div>
+            <label for="iidade">Idade: </label>
+            <input type="number" name="idade" id="iidade" required min="18" max="100">
+        </div>
+        <div>
+            <fieldset style="width: 100px;">
+                <legend>Sexo</legend>
+                <input type="radio" name="sex" id="isexmasc" checked required>
+                <label for="isexmasc">Masculino</label>
+                <input type="radio" name="sex" id="isexfem" required>
+                <label for="isexfem">Feminino</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="itel">Telefone: </label>
+            <input type="tel" name="tel" id="itel" required placeholder="XX-XXXXX-XXXX">
+        </div>
+        <div>
+            <label for="iemail">E-mail: </label>
+            <input type="email" name="email" id="iemail" required size="30" maxlength="50">
+        </div>
+        <div>
+            <label for="isenha">Senha: </label>
+            <input type="password" name="senha" id="isenha"
+            required minlength="10" max="16" size="8">
+        </div>
+        <div>
+            <label for="imes">Mês de aniverssário: </label>
+            <input type="month" name="mes" id="imes" required>
+        </div>
+        <div>
+            <label for="idia">Dia da compra: </label>
+            <input type="date" name="data" id="idata" required>
+        </div>
+        <div>
+            <label for="ihora">Hora da compra: </label>
+            <input type="time" id="ihora" required>
+        </div>
+        <div>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#000000" required>
+        </div>
+        <div>
+            <label for="isat">Nível de satisfação: </label>
+            <input type="range" name="sat" id="isat" min="0" max="4" value="2">
+        </div>
+        <div>
+            <input type="checkbox" name="aceito" id="iaceito">
+            <label for="iaceito">Aceito os <a href="termos.html">termos de uso</a></label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
