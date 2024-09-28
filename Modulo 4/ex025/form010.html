@@ -7,11 +7,14 @@
 </head>
 <body>
     <form action="cadastro.php">
-        <h1>Teste de Formulário</h1>
+        <h1>Exemplo de Formulário</h1>
         <p>
-            <label for="inum">Número: </label>
-            <input type="range" name="num" id="inum" min="0" max="100" value="0" oninput="ivalor.innerHTML = Number(inum.value)">
-            <output id="ivalor">0</output>
+            <label for="iano">Em quem ano você nasceu? </label>
+            <input type="number" name="ano" id="iano" min="1960" max="2024" oninput="iidade.innerHTML = Number(iidade.value)">
+        </p>
+        <p>
+            <label for="iidade">Sua idade: </label>
+            <output id="iidade">0</output>
         </p>
         <p>
             <input type="submit" value="Enviar">
